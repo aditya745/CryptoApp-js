@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:5%;
+	font-family: 'Sura', serif;
+	color:white;
+	background: rgb(71,17,129);
+	background: linear-gradient(180deg, rgba(71,17,129,1) 0%, rgba(184,68,117,1) 90%);
+	background-repeat: no-repeat;
+}
+#nom{
+	margin-left: 2%;
+	font-weight: bold;
+	font-size:1.5em;
+}
+.data{
+	
+	display:grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-gap: 5%;
+	text-align: left;
+	padding:2%;
+}
+.bold{
+	font-weight: bold;
+	text-align: center;
+	background-color: lightgrey;
+	opacity:0.5;
+	color:black;
+}
+h1{
+	text-align: center;
+}
+.coin{
+	background-color: transparent;
+	border:2px solid orange;
+	padding:3%;
+	width:115%;
+	font-size:1.3em;
+	margin:3%;
+
+}
+.btn{
+	display:flex;
+	margin-left:2%;
+	margin-bottom:2%;
+}
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 30px;
+    transition: width 0.4s ease-in-out;
+    margin-left:2%;
+    margin-bottom: 2%;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid #4CAF50;
+    border-radius:10px;
+}
+
+.btn1:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+.btn2{
+	background-color:transparent;
+	color: white; 
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    background-color: orange;
+    color: black;
+}
+.btn3{
+	background-color:transparent;
+	color: white; 
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+.btn3:hover {
+    background-color: pink;
+    color: black;
